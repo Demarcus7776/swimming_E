@@ -1,0 +1,26 @@
+Assignment name  : wdmatch
+Expected files   : wdmatch.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+Write a program that takes two strings and displays every character from the
+first string that also exists somewhere in the second string, in the same order
+as they appear in the first string.
+
+Each matching character must be written once when it is found in the second
+string.
+
+The output must be followed by a newline.
+
+If the number of parameters is not 2, the program displays nothing.
+
+Examples:
+
+$> ./wdmatch "abc" "zabx" | cat -e
+ab$
+$> ./wdmatch "hello" "world" | cat -e
+lo$
+$> ./wdmatch "1337" "42" | cat -e
+$
+$> ./wdmatch | cat -e
+$```

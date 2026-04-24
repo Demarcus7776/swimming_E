@@ -1,0 +1,25 @@
+Assignment name  : sum_even_digits
+Expected files   : sum_even_digits.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+Write a program that takes a string representing a positive number and
+displays the sum of all even digits in it, followed by a newline.
+
+A digit is considered even if it is divisible by 2 (0, 2, 4, 6, 8).
+
+If the string contains non-digit characters, they must be ignored.
+
+If the number of parameters is not 1, the program displays 0 followed by a
+newline.
+
+Examples:
+
+$> ./sum_even_digits "123456" | cat -e
+12$
+$> ./sum_even_digits "13579" | cat -e
+0$
+$> ./sum_even_digits "a1b2c3" | cat -e
+2$
+$> ./sum_even_digits | cat -e
+0$

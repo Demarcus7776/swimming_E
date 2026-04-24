@@ -1,0 +1,25 @@
+Assignment name  : add_digits
+Expected files   : add_digits.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+Write a function that takes a string representing a positive number and
+displays its digital sum, followed by a newline.
+
+The digital sum is obtained by adding all digits of the number. If the result
+has more than one digit, repeat the process until a single digit is obtained.
+
+You can assume that the string will only contain digit characters.
+
+If the number of parameters is not 1, the program displays a newline.
+
+Examples:
+
+$> ./add_digits "42" | cat -e
+6$
+$> ./add_digits "9999" | cat -e
+9$
+$> ./add_digits "12345" | cat -e
+6$
+$> ./add_digits | cat -e
+$

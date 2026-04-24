@@ -1,0 +1,27 @@
+Assignment name  : rlc
+Expected files   : rlc.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+Write a program that takes a string and compresses it using run-length
+encoding.
+
+The program must display each group of repeated characters as the number of
+times the character appears, followed by the character itself.
+
+The result must be followed by a newline.
+
+If the number of parameters is not 1, the program displays only a newline.
+
+Examples:
+
+$> ./rlc "abbbccccc" | cat -e
+1a3b5c$
+$> ./rlc "aaabbc" | cat -e
+3a2b1c$
+$> ./rlc "abc" | cat -e
+1a1b1c$
+$> ./rlc "" | cat -e
+$
+$> ./rlc | cat -e
+$

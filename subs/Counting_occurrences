@@ -1,0 +1,23 @@
+Assignment name  : count_a
+Expected files   : count_a.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+Write a program that takes a string and displays the number of times the
+character 'A' appears in it, followed by a newline.
+
+The comparison is case-sensitive, so only uppercase 'A' must be counted.
+
+If the number of parameters is not 1, the program displays 0 followed by a
+newline.
+
+Examples:
+
+$> ./count_a "AnasAAA" | cat -e
+4$
+$> ./count_a "hello" | cat -e
+0$
+$> ./count_a "AAA" | cat -e
+3$
+$> ./count_a | cat -e
+0$

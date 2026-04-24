@@ -1,0 +1,29 @@
+Assignment name  : capitalize_words
+Expected files   : capitalize_words.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+Write a program that takes a string and capitalizes the first letter of each
+word.
+
+All other letters in the word must be changed to lowercase.
+
+A word is a group of alphabetic characters. Any non-alphabetic character is
+considered a separator.
+
+The result must be followed by a newline.
+
+If the number of parameters is not 1, the program displays only a newline.
+
+Examples:
+
+$> ./capitalize_words "hello world" | cat -e
+Hello World$
+$> ./capitalize_words "saLut, cOMment tu vas ?" | cat -e
+Salut, Comment Tu Vas ?$
+$> ./capitalize_words "42school-is_Cool" | cat -e
+42School-Is_Cool$
+$> ./capitalize_words "aBcDeF" | cat -e
+Abcdef$
+$> ./capitalize_words | cat -e
+$
