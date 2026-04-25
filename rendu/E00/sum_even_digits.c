@@ -9,10 +9,16 @@ char	sumeven(char *s)
 
 	i = 0;
 	counter = 0;
+	
+	if (s[i] == '\0')
+		return 0;
+	
 	while(s[i])
 	{	
 		if(s[i] % 2 == 0)
 			counter +=  (s[i] - '0');
+		else
+			return 0;
 		i++;
 	}
 		
@@ -21,7 +27,7 @@ char	sumeven(char *s)
 
 int main ()
 {
-	char s[] = "123456";
+	char s[] = "";
 
 	printf("%d", sumeven(s));
 }
