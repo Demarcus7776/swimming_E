@@ -1,5 +1,4 @@
 #include<unistd.h>
-#include<unistd.h>
 
 int	dub(char *s, char c, int pos)
 {
