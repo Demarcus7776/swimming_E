@@ -1,0 +1,31 @@
+Assignment name  : snake_to_camel
+Expected files   : snake_to_camel.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+Write a program that takes a string in snake_case format and converts it to
+lowerCamelCase.
+
+The program must remove all underscores `_`.
+
+If a lowercase letter comes after an underscore, it must be converted to
+uppercase.
+
+All other uppercase letters must be converted to lowercase.
+
+The result must be followed by a newline.
+
+If the number of parameters is not 1, the program displays only a newline.
+
+Examples:
+
+$> ./snake_to_camel "hello_world" | cat -e
+helloWorld$
+$> ./snake_to_camel "make_this_work" | cat -e
+makeThisWork$
+$> ./snake_to_camel "FOO_bar" | cat -e
+fooBar$
+$> ./snake_to_camel "alreadyCamel" | cat -e
+alreadycamel$
+$> ./snake_to_camel | cat -e
+$

@@ -1,0 +1,28 @@
+Assignment name  : fizzbuzz_str
+Expected files   : fizzbuzz_str.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+Write a program that takes a string as argument.
+
+The program must replace characters depending on their index:
+
+- if the index is divisible by 3 and 5, replace the character with '5'
+- if the index is divisible only by 3, replace the character with '5'
+- if the index is divisible only by 5, replace the character with '3'
+- otherwise keep the original character
+
+The modified string must be displayed followed by a newline.
+
+If the number of parameters is not 1, the program displays only a newline.
+
+Examples:
+
+$> ./fizzbuzz_str "abcdefghij" | cat -e
+5bc5e35hi5$
+
+$> ./fizzbuzz_str "hello_world" | cat -e
+5el5o3wo5ld$
+
+$> ./fizzbuzz_str | cat -e
+$

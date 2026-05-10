@@ -1,0 +1,17 @@
+Assignment name  : even_digits
+Expected files   : even_digits.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+Write a program that displays all even digits from 0 to 10 separated by tabs.
+
+The expected output is:
+
+0	2	4	6	8	10
+
+The result must not end with a tab and must be followed by a newline.
+
+Example:
+
+$> ./even_digits
+0	2	4	6	8	10$

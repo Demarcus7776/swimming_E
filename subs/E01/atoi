@@ -1,0 +1,34 @@
+Assignment name  : ft_atoi
+Expected files   : ft_atoi.c
+Allowed functions: none
+--------------------------------------------------------------------------------
+
+Write a function that converts the initial portion of a string to an integer.
+
+The function must:
+
+- ignore leading whitespaces
+  (spaces and ASCII values from 9 to 13)
+
+- handle an optional sign:
+  '+' or '-'
+
+- convert consecutive numeric characters into an integer
+
+- stop converting when a non-digit character is found
+
+Prototype:
+
+int	ft_atoi(char *str);
+
+Examples:
+
+ft_atoi("42") -> 42
+
+ft_atoi("   -42abc") -> -42
+
+ft_atoi(" +123") -> 123
+
+ft_atoi("abc") -> 0
+
+ft_atoi("  -2324ab12") -> -2324

@@ -1,0 +1,29 @@
+Assignment name  : ft_itoa
+Expected files   : ft_itoa.c
+Allowed functions: malloc
+--------------------------------------------------------------------------------
+
+Write a function that converts an integer into a string.
+
+The function must allocate memory for the resulting string and return it.
+
+Prototype:
+
+char	*ft_itoa(int nbr);
+
+Your function must handle:
+
+- positive numbers
+- negative numbers
+- 0
+- INT_MIN (-2147483648)
+
+Examples:
+
+ft_itoa(42) -> "42"
+
+ft_itoa(-42) -> "-42"
+
+ft_itoa(0) -> "0"
+
+ft_itoa(1337) -> "1337"
