@@ -22,7 +22,7 @@ $> ./fizzbuzz_str "abcdefghij" | cat -e
 5bc5e35hi5$
 
 $> ./fizzbuzz_str "hello_world" | cat -e
-5el5o3wo5ld$
+5el5o35o5ld$
 
 $> ./fizzbuzz_str | cat -e
 $
