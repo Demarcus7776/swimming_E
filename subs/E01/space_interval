@@ -1,0 +1,27 @@
+Assignment name  : space_interval
+Expected files   : space_interval.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+Write a program that takes a string and displays each character separated by
+exactly three spaces.
+
+The output must not end with spaces.
+
+The result must be followed by a newline.
+
+If the number of parameters is not 1, the program displays only a newline.
+
+Examples:
+
+$> ./expand_chars "abc" | cat -e
+a   b   c$
+
+$> ./expand_chars "Hello" | cat -e
+H   e   l   l   o$
+
+$> ./expand_chars "42" | cat -e
+4   2$
+
+$> ./expand_chars | cat -e
+$
