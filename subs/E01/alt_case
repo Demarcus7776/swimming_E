@@ -1,0 +1,27 @@
+Assignment name  : alt_case
+Expected files   : alt_case.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+Write a program that takes a string and capitalizes the first letter of each
+word while transforming all other letters to lowercase.
+
+A word is a sequence of characters separated by spaces.
+
+The result must be followed by a newline.
+
+If the number of parameters is not 1, the program displays only a newline.
+
+Examples:
+
+$> ./str_capitalizer "hello world" | cat -e
+Hello World$
+
+$> ./str_capitalizer "hELLo woRLD" | cat -e
+Hello World$
+
+$> ./str_capitalizer "42 school is cool" | cat -e
+42 School Is Cool$
+
+$> ./str_capitalizer | cat -e
+$
