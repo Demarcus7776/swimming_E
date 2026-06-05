@@ -47,7 +47,7 @@ void	sum(char *s)
 
 	while(i <= num)
 	{
-		if(p(i))
+		if(prime(i))
 			r += i;
 		i++;
 	} 
