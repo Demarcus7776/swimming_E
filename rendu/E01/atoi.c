@@ -25,9 +25,12 @@ int	ft_atoi(char *s)
 		if(s[i] >= 9 && s[i] <= 13)
 				i++;
 
-		if(s[i] == '-')
-			write(1, "-", 1);
-		
+		if(s[i] == '-' || s[i] == '+')
+		{
+			s[i] *= s[i + 1];
+			write(1, &s[i], 1);
+		}
+
 		if(s[i] >= '0' && s[i] <= '9')
 			r = (r * 10) + (s[i] - '0');
 	
@@ -42,7 +45,7 @@ int	ft_atoi(char *s)
 
 int main ()
 {
-	char *s = "   --42abc4642";
+	char *s = "   -+-42abc4642";
 	
 	printf("%d", ft_atoi(s));
 }
